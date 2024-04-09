@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 10%;
+}
+
+.container {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 200px;
+}
+
+#sign-in form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sign-in label {
+    margin-bottom: 5px;
+}
+
+.password-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.password-wrapper .forgot-password {
+    margin-bottom: 5px;
+    color: #007bff;
+}
+
+#sign-in p {
+    margin-top: 10px;
+}
+
+#create-account-dialog {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px; 
+}
